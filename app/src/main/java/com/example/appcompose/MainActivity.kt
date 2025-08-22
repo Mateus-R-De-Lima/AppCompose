@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.example.appcompose.ui.theme.AppComposeTheme
+import com.example.appcompose.ui.theme.component.ExampleModifier.InteractionProperties
 import com.example.appcompose.ui.theme.component.HelloContent
 
 // MainActivity é a "porta de entrada" do app no Android
@@ -32,7 +33,8 @@ class MainActivity : ComponentActivity() {
                 { innerPadding ->
                     // Chama nossa função composable "HelloContent"
                     // E aplica o padding interno que o Scaffold fornece
-                    HelloContent(modifier = Modifier.padding(innerPadding))
+                  //  HelloContent(modifier = Modifier.padding(innerPadding))
+                    InteractionProperties(modifier = Modifier.padding(innerPadding))
                 }
             }
         }

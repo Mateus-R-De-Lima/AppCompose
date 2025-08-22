@@ -1,4 +1,4 @@
-package com.example.appcompose.ui.theme.component
+package com.example.appcompose.ui.theme.component.ExampleModifier
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement

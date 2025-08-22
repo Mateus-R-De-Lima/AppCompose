@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AppCompose</string>
+    <string name="name">Digite seu nome</string>
+    <string name="hello_name">Hello, %1$s!</string>
 </resources>
